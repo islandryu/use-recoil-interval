@@ -1,6 +1,6 @@
 # use-recoil-interval
 
-## About
+## install
 ```javascript
 npm install use-recoil-interval
 ```
