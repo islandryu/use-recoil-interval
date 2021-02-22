@@ -23,8 +23,8 @@ const TestComponent = () => {
   };
 
   const setTime = () => {
-    setIntervalTime(2000)
-  }
+    setIntervalTime(2000);
+  };
 
   return (
     <div>
@@ -68,7 +68,7 @@ describe("useRecoilInterval", () => {
     expect(getByText(2)).toBeInTheDocument();
   });
 
-  it('reset interval', () => {
+  it("reset interval", () => {
     jest.useFakeTimers();
     const { getByText } = render(
       <RecoilRoot>
