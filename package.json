@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/islandryu/react-sessionstrage"
+    "url": "git+https://github.com/islandryu/use-recoil-interval/blob/master/package.json"
   },
   "jest": {
     "preset": "ts-jest",
